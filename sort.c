@@ -32,7 +32,7 @@ size_t Size(void* ptr)
 void mergeSort(int pData[], int l, int r)
 {
 	if (l < r) {
-		int m = 1 + (r-1) / 2;
+		int m = 1 + (r - 1) / 2;
 		mergeSort(pData, 1, m);
 		mergeSort(pData, m + 1, r);
 	}
